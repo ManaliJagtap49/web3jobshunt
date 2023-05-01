@@ -1,0 +1,51 @@
+
+.compost{
+    background-color: white;
+    min-width: 24rem;
+    padding: 2rem 1rem;
+    border-radius: 24px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.compost p{
+    font-size: 14px;
+    font-family: Nunito;
+}
+.compost b{
+    font-family: Nunito;
+
+}
+
+.ourcommunity{
+    /* margin: 20px 40px; */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-family: Dahlia;
+}
+.comcon{
+    position: relative;
+    overflow: hidden;
+    padding:  26px 0;
+}
+
+
+
+@media (max-width: 360px) {
+    .compost{
+        min-width: 15rem;
+      
+    }
+  .next_btn{
+    margin-right: 0rem;
+  }
+  .pre_btn{
+    margin-left: -1rem;
+  }
+  .ourcommunity .trusted_by_heading{
+    margin-left: 4rem;
+  }
+
+}

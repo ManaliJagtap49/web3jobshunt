@@ -1,0 +1,52 @@
+.why_web3_job_hunt_main{
+    margin-top: 2rem;
+}
+.why_web3jobhunt_main_con{
+    background-color: black;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.why_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    margin-top: 2rem;
+    
+}
+.why_title h3{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.why_web3jobhunt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    margin-top: 1rem;
+}
+.why_con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why_con img{
+    width: 10rem;
+}
+.why_con h2{
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffde59;
+
+}
+
+@media (max-width: 360px) {
+
+    .why_web3jobhunt{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
