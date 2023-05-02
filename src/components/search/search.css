@@ -88,7 +88,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
     .search_job_main_con {
         padding: 1rem;
     }

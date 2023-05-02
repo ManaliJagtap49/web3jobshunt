@@ -67,7 +67,7 @@
     margin-left: 5rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 370px) {
 
     .main_home_con{
         flex-direction: column;
