@@ -88,7 +88,34 @@
     cursor: pointer;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
+    .search_job_main_con {
+        padding: 1rem;
+    }
+
+    .search_job_details {
+        flex-direction: column;
+
+    }
+
+    .search_job_details img {
+        width: 25rem;
+    }
+    .search_job_input_field{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .suggestions{
+        top: 89rem;
+        left: 1rem;
+    }
+    .search_job_details img{
+        width: 20rem;
+    }
+ 
+}
+
+@media (max-width: 412px) {
     .search_job_main_con {
         padding: 1rem;
     }

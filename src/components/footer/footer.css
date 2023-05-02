@@ -46,7 +46,32 @@ padding: 0 40px;
     color: white;
 }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
+    .log_footer_con{
+        flex-direction: column;
+    }
+    .log_img_con img{
+        width: 100%;
+        height: 10rem;
+    }
+    .log_cr_con {
+        margin-top: -2rem;
+    }
+    .log_cr_con h2{
+        font-size: 1.2rem;
+    }
+    .log_sm_con a{
+        font-size: 1.8rem;
+    }
+    .log_sm_con{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+@media (max-width: 412px) {
     .log_footer_con{
         flex-direction: column;
     }

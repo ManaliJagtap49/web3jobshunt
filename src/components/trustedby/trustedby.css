@@ -45,9 +45,17 @@
    }
   }
 
-  @media (max-width: 370px) {
+  @media (max-width: 360px) {
 
     .trusted_img_con img{
         width: 4rem;
     }
   }
+
+  @media (max-width: 412px) {
+
+    .trusted_img_con img{
+        width: 4rem;
+    }
+  }
+  

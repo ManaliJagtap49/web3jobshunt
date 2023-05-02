@@ -43,7 +43,15 @@
 
 }
 
-@media (max-width: 370px) {
+@media (max-width: 360px) {
+
+    .why_web3jobhunt{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 412px) {
 
     .why_web3jobhunt{
         flex-direction: column;
