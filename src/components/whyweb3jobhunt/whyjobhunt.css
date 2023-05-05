@@ -51,10 +51,26 @@
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 452px) {
 
     .why_web3jobhunt{
         flex-direction: column;
         gap: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    
+
+    .why_web3jobhunt_main_con{
+        width: 97%;
+        
+    
+    }
+        .why_web3jobhunt{
+            gap: 3rem;
+        }
+        .why_con img{
+            width: 8rem;
+        }
+    }

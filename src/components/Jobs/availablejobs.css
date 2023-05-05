@@ -89,9 +89,13 @@
     .jon_apply_btn{
         margin-left: 0; 
     }
+    .job_main_con{
+        padding: 2rem 2rem;
+        width: 100%;
+    }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 452px) {
     .job_details_main_con{
         flex-direction: column;
         gap: 2rem;
@@ -115,5 +119,22 @@
     }
     .jon_apply_btn{
         margin-left: 0; 
+    }
+    .job_main_con{
+        padding: 2rem 2rem;
+        width: 100%;
+    }
+    
+}
+@media (min-width: 768px) {
+    .job_main_con{
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+    .job_details_main_con{
+        gap: 1rem;
+    }
+    .more_detaisl{
+        width: 18rem;
     }
 }

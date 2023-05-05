@@ -52,7 +52,7 @@
     }
   }
 
-  @media (max-width: 412px) {
+  @media (max-width: 452px) {
 
     .trusted_img_con img{
         width: 4rem;

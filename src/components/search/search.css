@@ -115,7 +115,7 @@
  
 }
 
-@media (max-width: 412px) {
+@media (max-width: 452px) {
     .search_job_main_con {
         padding: 1rem;
     }
@@ -140,4 +140,19 @@
         width: 20rem;
     }
  
+}
+
+@media (max-width: 768px) {
+    .search_job_main_con{
+        padding: 2rem;
+    }
+    .search_job_details img{
+        width: 20rem;
+    }
+    .search_job_input_field input{
+        width: 16rem;
+    }
+    .search_job_input_field select{
+        width: 16rem;
+    }
 }

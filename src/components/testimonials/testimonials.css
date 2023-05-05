@@ -66,3 +66,11 @@ h1{
 }
 
 }
+
+@media (max-width: 768px) {
+  .compost{
+
+    min-width: 18rem;
+    max-width: 21rem;
+  }
+}

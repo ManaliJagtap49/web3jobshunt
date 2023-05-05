@@ -93,7 +93,7 @@
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 45px) {
 
     .main_home_con{
         flex-direction: column;
@@ -118,3 +118,18 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .home_left h2{
+        font-size: 2rem;
+    }
+    .home_right img{
+        width: 25rem;
+        margin-left: 0rem;
+    }
+    .home_btn_con{
+       
+    
+    }
+    
+    }

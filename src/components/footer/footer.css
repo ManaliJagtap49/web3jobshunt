@@ -71,7 +71,7 @@ padding: 0 40px;
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 452px) {
     .log_footer_con{
         flex-direction: column;
     }
