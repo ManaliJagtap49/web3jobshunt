@@ -42,23 +42,6 @@
     color: #ffde59;
 
 }
-
-@media (max-width: 360px) {
-
-    .why_web3jobhunt{
-        flex-direction: column;
-        gap: 2rem;
-    }
-}
-
-@media (max-width: 452px) {
-
-    .why_web3jobhunt{
-        flex-direction: column;
-        gap: 2rem;
-    }
-}
-
 @media (max-width: 768px) {
     
 
@@ -74,3 +57,18 @@
             width: 8rem;
         }
     }
+
+@media (max-width: 452px) {
+
+    .why_web3jobhunt{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+@media (max-width: 360px) {
+
+    .why_web3jobhunt{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -67,6 +67,75 @@
     margin-left: 5rem;
 }
 
+
+@media (max-width: 768px) {
+.home_left h2{
+    font-size: 2rem;
+}
+.home_right img{
+    width: 23rem;
+    margin-left: 0rem;
+}
+.home_btn_con{
+   
+
+}
+
+}
+
+@media (max-width: 648px) {
+    .main_home_con{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .home_left{
+        width: 100%;
+    }
+    .home_left h2{
+        font-size: 2rem;
+    }
+    .home_btn_con{
+        gap: 2rem;
+    }
+    .post_a_job_btn{
+        width: 20rem;
+    }
+    .find_a_job_btn{
+        width: 20rem;
+    }
+    .home_right{
+        display: none;
+    }
+}
+
+@media (max-width: 452px) {
+
+    .main_home_con{
+        flex-direction: column;
+        padding: 2rem;
+    }
+   
+    .home_left{
+        width: 100%;
+    }
+    .home_left h2{
+        font-size: 2rem;
+    }
+    .home_btn_con{
+        gap: 2rem;
+       
+    }
+    .post_a_job_btn{
+        width: 20rem;
+    }
+    .find_a_job_btn{
+        width: 20rem;
+    }
+    .home_right{
+        display: none;
+    }
+}
+
 @media (max-width: 360px) {
 
     .main_home_con{
@@ -92,44 +161,3 @@
         display: none;
     }
 }
-
-@media (max-width: 45px) {
-
-    .main_home_con{
-        flex-direction: column;
-        padding: 2rem;
-    }
-    .home_left{
-        width: 100%;
-    }
-    .home_left h2{
-        font-size: 2rem;
-    }
-    .home_btn_con{
-        gap: 2rem;
-    }
-    .post_a_job_btn{
-        width: 20rem;
-    }
-    .find_a_job_btn{
-        width: 20rem;
-    }
-    .home_right{
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .home_left h2{
-        font-size: 2rem;
-    }
-    .home_right img{
-        width: 25rem;
-        margin-left: 0rem;
-    }
-    .home_btn_con{
-       
-    
-    }
-    
-    }

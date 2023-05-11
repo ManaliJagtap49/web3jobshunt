@@ -31,26 +31,15 @@ h1{
     padding:  26px 0;
 }
 
+@media (max-width: 768px) {
+  .compost{
 
-
-@media (max-width: 360px) {
-    .compost{
-        min-width: 15rem;
-      
-    }
-  .next_btn{
-    margin-right: 0rem;
+    min-width: 18rem;
+    max-width: 21rem;
   }
-  .pre_btn{
-    margin-left: -1rem;
-  }
-  .ourcommunity .trusted_by_heading{
-    margin-left: 4rem;
-  }
-
 }
 
-@media (max-width: 412px) {
+@media (max-width: 452px) {
   .compost{
       min-width: 15rem;
     
@@ -66,11 +55,19 @@ h1{
 }
 
 }
-
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .compost{
-
-    min-width: 18rem;
-    max-width: 21rem;
+      min-width: 15rem;
+    
   }
+.next_btn{
+  margin-right: 0rem;
+}
+.pre_btn{
+  margin-left: -1rem;
+}
+.ourcommunity .trusted_by_heading{
+  margin-left: 4rem;
+}
+
 }
